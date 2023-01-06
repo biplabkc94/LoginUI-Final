@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(5, 31, 7);
+    height:100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(247, 247, 247);
+    height: 600px;
+    width: 400px;
+}
+
+.row1 {
+    background-color: rgb(207, 53, 53);
+    height: 100px;
+    width: 400px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(237, 168, 79);
+    height: 300px;
+    width: 100%;
+}
+
+input {
+    height: 20px;
+    width: 400px;
+
+}
+
+.row3 {
+    background-color: rgb(22, 19, 14);
+    height: 100px;
+    width: 400px;
+}
+ h2 {
+    font-size: 17px;
+    /* font-weight: 900; */
+    font-family: cursive;
+    font-style: oblique;
+ }
